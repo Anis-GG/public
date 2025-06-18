@@ -1,0 +1,547 @@
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:119] Starting a job; no job is presently running
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:120] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:138] Pushing first task to queue: setup
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:194] Current task: setup
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:208] Performing task: setup
+[2025-06-18 05:10:56] [class-ss-task.php:44] Status message: [setup] Configurar
+[2025-06-18 05:10:56] [class-ss-setup-task.php:33] Creating archive directory: C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456\
+[2025-06-18 05:10:56] [class-ss-setup-task.php:72] Adding origin URL to queue: http://blogger-isus.local/
+[2025-06-18 05:10:56] [class-ss-setup-task.php:169] File doesn't exist: C:\Users\User\Local Sites\blogger-jsus\app\public\wp-content\uploads
+[2025-06-18 05:10:56] [class-ss-setup-task.php:169] File doesn't exist: C:\Users\User\Local Sites\blogger-jsus\app\public\wp-content
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:233] We've found our next task: fetch_urls
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-18 05:10:56] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-18 05:10:56] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2025-06-18 05:10:56] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/
+[2025-06-18 05:10:56] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2025-06-18 05:10:56] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:10:56] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a60e456a-Dr0XRr.tmp
+[2025-06-18 05:10:56] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/?simply_static_page=115
+[2025-06-18 05:10:56] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/?simply_static_page=115
+[2025-06-18 05:11:01] [class-ss-url-fetcher.php:103] Filesize: 135305 bytes
+[2025-06-18 05:11:01] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2025-06-18 05:11:01] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2025-06-18 05:11:01] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a60e456a-Dr0XRr.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/index.html
+[2025-06-18 05:11:01] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:02] [class-ss-fetch-urls-task.php:159] Adding 36 URLs to the queue
+[2025-06-18 05:11:02] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:02] [class-ss-page.php:119] Checking Content Identical:80a3bf2f78552f5cc8668b4ca13d8db35756d1d3===. Value: FALSE
+[2025-06-18 05:11:02] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 0 de 1 páginas o archivos
+[2025-06-18 05:11:02] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-18 05:11:02] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-18 05:11:02] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-18 05:11:02] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 35
+[2025-06-18 05:11:02] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/inicio/isu-sucre/
+[2025-06-18 05:11:02] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 36
+[2025-06-18 05:11:02] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:02] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a66a26f3-fkMOV3.tmp
+[2025-06-18 05:11:02] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/inicio/isu-sucre/?simply_static_page=116
+[2025-06-18 05:11:02] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/inicio/isu-sucre/?simply_static_page=116
+[2025-06-18 05:11:02] [class-ss-url-fetcher.php:103] Filesize: 160532 bytes
+[2025-06-18 05:11:02] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-06-18 05:11:02] [class-ss-url-fetcher.php:233] New filename for static page: /inicio/isu-sucre/index.html
+[2025-06-18 05:11:02] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a66a26f3-fkMOV3.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/inicio/isu-sucre/index.html
+[2025-06-18 05:11:02] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:03] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:03] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:03] [class-ss-page.php:119] Checking Content Identical:98f4b6f4443260168bffe8aed8b4eba44f2aa8dd===. Value: FALSE
+[2025-06-18 05:11:03] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/inicio/desarrollo-de-software/
+[2025-06-18 05:11:03] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 36
+[2025-06-18 05:11:03] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:03] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6797347-wkn8zT.tmp
+[2025-06-18 05:11:03] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/inicio/desarrollo-de-software/?simply_static_page=117
+[2025-06-18 05:11:03] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/inicio/desarrollo-de-software/?simply_static_page=117
+[2025-06-18 05:11:03] [class-ss-url-fetcher.php:103] Filesize: 460166 bytes
+[2025-06-18 05:11:03] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-06-18 05:11:03] [class-ss-url-fetcher.php:233] New filename for static page: /inicio/desarrollo-de-software/index.html
+[2025-06-18 05:11:03] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6797347-wkn8zT.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/inicio/desarrollo-de-software/index.html
+[2025-06-18 05:11:03] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:04] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:04] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:04] [class-ss-page.php:119] Checking Content Identical:896aec5aecc7b6f6abab9009a09c8dd8044dd1d1===. Value: FALSE
+[2025-06-18 05:11:04] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/inicio/contactanos/
+[2025-06-18 05:11:04] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 36
+[2025-06-18 05:11:04] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:04] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a68b0230-EuDt7R.tmp
+[2025-06-18 05:11:04] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/inicio/contactanos/?simply_static_page=118
+[2025-06-18 05:11:04] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/inicio/contactanos/?simply_static_page=118
+[2025-06-18 05:11:04] [class-ss-url-fetcher.php:103] Filesize: 121214 bytes
+[2025-06-18 05:11:04] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-06-18 05:11:04] [class-ss-url-fetcher.php:233] New filename for static page: /inicio/contactanos/index.html
+[2025-06-18 05:11:04] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a68b0230-EuDt7R.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/inicio/contactanos/index.html
+[2025-06-18 05:11:04] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:05] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:05] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:05] [class-ss-page.php:119] Checking Content Identical:a73c235b225b042444806cc1ef01a9430cbf419a===. Value: FALSE
+[2025-06-18 05:11:05] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/inicio/comentarios/
+[2025-06-18 05:11:05] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 36
+[2025-06-18 05:11:05] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:05] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a69897af-MuXMHE.tmp
+[2025-06-18 05:11:05] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/inicio/comentarios/?simply_static_page=119
+[2025-06-18 05:11:05] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/inicio/comentarios/?simply_static_page=119
+[2025-06-18 05:11:05] [class-ss-url-fetcher.php:103] Filesize: 119075 bytes
+[2025-06-18 05:11:05] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html
+[2025-06-18 05:11:05] [class-ss-url-fetcher.php:233] New filename for static page: /inicio/comentarios/index.html
+[2025-06-18 05:11:05] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a69897af-MuXMHE.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/inicio/comentarios/index.html
+[2025-06-18 05:11:05] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:6a80c1283b4a66915cfe4ab267fd4d23610db436===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/isu-sucre/
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6a67a06-knofYr.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/isu-sucre/?simply_static_page=120
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/isu-sucre/?simply_static_page=120
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=UTF-8
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:204] redirect_url: http://blogger-isus.local/inicio/isu-sucre/
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:231] Redirect URL is on the same domain; adding the URL to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:243] Creating a redirect page
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /isu-sucre/index.html
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:2adaca7e79c2006a39fc1752aa835e10ecdb6fdb===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE-158x78.png
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6a88f8e-2ZU9Eo.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE-158x78.png?simply_static_page=121
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE-158x78.png?simply_static_page=121
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 4885 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/LOGO-PIE-158x78.png
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6a88f8e-2ZU9Eo.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/LOGO-PIE-158x78.png
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:07ea87cd238637958ebc8020989de8d589729322===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE-300x148.png
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6a8d1de-1RRt1H.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE-300x148.png?simply_static_page=122
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE-300x148.png?simply_static_page=122
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 10336 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/LOGO-PIE-300x148.png
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6a8d1de-1RRt1H.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/LOGO-PIE-300x148.png
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:5ddffb1ac68b880608733c38c5e9319f00719fc9===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE.png
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6a9232c-L9eXEj.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE.png?simply_static_page=123
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/LOGO-PIE.png?simply_static_page=123
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 6818 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/LOGO-PIE.png
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6a9232c-L9eXEj.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/LOGO-PIE.png
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:47528de050069c7c260ed0186d5acdb0a606eccf===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/CARRERAS-2.jpg
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6a95f9b-ASWQQ7.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/CARRERAS-2.jpg?simply_static_page=124
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/CARRERAS-2.jpg?simply_static_page=124
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 58579 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/CARRERAS-2.jpg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6a95f9b-ASWQQ7.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/CARRERAS-2.jpg
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:f9f6929a9e5bb3cbdf12a15ea616eefbe89bf22f===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/graduatec-2024-1-1170x568-1.jpeg
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6a9a7cb-aX8zR4.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/graduatec-2024-1-1170x568-1.jpeg?simply_static_page=125
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/graduatec-2024-1-1170x568-1.jpeg?simply_static_page=125
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 143279 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/graduatec-2024-1-1170x568-1.jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6a9a7cb-aX8zR4.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/graduatec-2024-1-1170x568-1.jpeg
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:4589ce83b76d70647da59e37849f2c74292d2673===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-1024x539.jpg
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6aa0759-KGBjMr.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-1024x539.jpg?simply_static_page=126
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-1024x539.jpg?simply_static_page=126
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 200858 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/PLANTACION-1024x539.jpg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6aa0759-KGBjMr.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/PLANTACION-1024x539.jpg
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:1da852cf2ea2f4fc9be9044ec6a5efcca9945de6===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-300x158.jpg
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6aa5bd0-vRxE7k.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-300x158.jpg?simply_static_page=127
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-300x158.jpg?simply_static_page=127
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 20780 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/PLANTACION-300x158.jpg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6aa5bd0-vRxE7k.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/PLANTACION-300x158.jpg
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:dc546b9681b5205c954981464ca021415fe6df9b===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-768x404.jpg
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6aaad47-seXDPx.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-768x404.jpg?simply_static_page=128
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION-768x404.jpg?simply_static_page=128
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 123727 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/PLANTACION-768x404.jpg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6aaad47-seXDPx.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/PLANTACION-768x404.jpg
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:6c905673b84a0db9a69fbead14009d526368311b===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION.jpg
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6ab4098-pXRqH5.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION.jpg?simply_static_page=129
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/PLANTACION.jpg?simply_static_page=129
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 202585 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/PLANTACION.jpg
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6ab4098-pXRqH5.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/PLANTACION.jpg
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:5a77cb9744726fc89333bd3d6e48b52de4f460d0===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6ab9bc7-PUBbu5.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?simply_static_page=130
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?simply_static_page=130
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 41474 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6ab9bc7-PUBbu5.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:d2202a495f15da4d77bd0b7e498c4e1c9631d049===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6ac62c1-Cquuxc.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js?simply_static_page=131
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js?simply_static_page=131
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 114305 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6ac62c1-Cquuxc.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:10c698d8924451993a491702cb5d9e0559c3ffee===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6ad6bc9-Nm5thS.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js?simply_static_page=132
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js?simply_static_page=132
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 13619 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6ad6bc9-Nm5thS.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:06] [class-ss-page.php:119] Checking Content Identical:d717a90db4f855e5fd6883a2b6841cdf70331ac7===. Value: FALSE
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/smartslider-backgroundanimation.min.js
+[2025-06-18 05:11:06] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 36
+[2025-06-18 05:11:06] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6ae4a67-CORwRG.tmp
+[2025-06-18 05:11:06] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/smartslider-backgroundanimation.min.js?simply_static_page=133
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/smartslider-backgroundanimation.min.js?simply_static_page=133
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:103] Filesize: 649380 bytes
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/smartslider-backgroundanimation.min.js
+[2025-06-18 05:11:06] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6ae4a67-CORwRG.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/smartslider-backgroundanimation.min.js
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:07] [class-ss-page.php:119] Checking Content Identical:2108fd8e6df363636ff6f276d7d401a33666e9a2===. Value: FALSE
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b29309-B1rBqf.tmp
+[2025-06-18 05:11:07] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js?simply_static_page=134
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js?simply_static_page=134
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:103] Filesize: 1454 bytes
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6b29309-B1rBqf.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:07] [class-ss-page.php:119] Checking Content Identical:86fa06add7f89317faf15dc5ae607346928d3487===. Value: FALSE
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b37d86-RvYC4C.tmp
+[2025-06-18 05:11:07] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=135
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/themes/astra/assets/js/minified/frontend.min.js?simply_static_page=135
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:103] Filesize: 24836 bytes
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/x-javascript
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6b37d86-RvYC4C.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:07] [class-ss-page.php:119] Checking Content Identical:17d46382a92a9d78ce0579e89500182bc8ddf91b===. Value: FALSE
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-270x270.jpg
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b40e31-K8efvI.tmp
+[2025-06-18 05:11:07] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-270x270.jpg?simply_static_page=136
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-270x270.jpg?simply_static_page=136
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:103] Filesize: 5216 bytes
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-270x270.jpg
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6b40e31-K8efvI.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-270x270.jpg
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:07] [class-ss-page.php:119] Checking Content Identical:3426dd83527e999d17c0cd59cb5ac851bd4694a2===. Value: FALSE
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/feed/
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://blogger-isus.local/feed/
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/comments/feed/
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://blogger-isus.local/comments/feed/
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b4e506-bnojLj.tmp
+[2025-06-18 05:11:07] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=139
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/themes/astra/assets/css/minified/main.min.css?simply_static_page=139
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:103] Filesize: 45738 bytes
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6b4e506-bnojLj.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:07] [class-ss-page.php:119] Checking Content Identical:3d40bdf5f18284e508dded6b97bd628bfa13b7fe===. Value: FALSE
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-includes/css/dist/block-library/style.min.css
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b5d0ee-Ucz2Db.tmp
+[2025-06-18 05:11:07] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=140
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-includes/css/dist/block-library/style.min.css?simply_static_page=140
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:103] Filesize: 116363 bytes
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a6b5d0ee-Ucz2Db.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-includes/css/dist/block-library/style.min.css
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:07] [class-ss-page.php:119] Checking Content Identical:8c82643ef63a8389c1b800b7c5d0af9d684b8b24===. Value: FALSE
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/themes/astra/includes/builder/feature/dynamic-assets/assets/css/magnific_popup.css
+[2025-06-18 05:11:07] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 36
+[2025-06-18 05:11:07] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b6e86a-NHggEn.tmp
+[2025-06-18 05:11:07] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/themes/astra/includes/builder/feature/dynamic-assets/assets/css/magnific_popup.css?simply_static_page=141
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/themes/astra/includes/builder/feature/dynamic-assets/assets/css/magnific_popup.css?simply_static_page=141
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:103] Filesize: 102275 bytes
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a6b97910-FScesF.tmp
+[2025-06-18 05:11:07] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/themes/astra/includes/builder/feature/dynamic-assets/assets/css/magnific_popup.css
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:103] Filesize: 0 bytes
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:106] We encountered an error when fetching: cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:107] object(WP_Error)#3644 (3) {  ["errors"]=>  array(1) {    ["http_request_failed"]=>    array(1) {      [0]=>      string(81) "cURL error 28: Operation timed out after 30004 milliseconds with 0 bytes received"    }  }  ["error_data"]=>  array(0) {  }  ["additional_data":protected]=>  array(0) {  }}
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/supreme-modules-for-divi/public/css/animate.css
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a899bc1e-dS3Qxv.tmp
+[2025-06-18 05:11:37] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/supreme-modules-for-divi/public/css/animate.css?simply_static_page=142
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/supreme-modules-for-divi/public/css/animate.css?simply_static_page=142
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:103] Filesize: 85371 bytes
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/supreme-modules-for-divi/public/css/animate.css
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a899bc1e-dS3Qxv.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/supreme-modules-for-divi/public/css/animate.css
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:37] [class-ss-page.php:119] Checking Content Identical:abc1c8bf1d48d261bf40ad9e86598b684a18a49c===. Value: FALSE
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a89aac2b-bh4ckO.tmp
+[2025-06-18 05:11:37] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?simply_static_page=143
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?simply_static_page=143
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:103] Filesize: 22276 bytes
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a89aac2b-bh4ckO.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:37] [class-ss-page.php:119] Checking Content Identical:456daa16a435c95ffe99005dfe670434898bc65e===. Value: FALSE
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-json/
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://blogger-isus.local/wp-json/
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-json/wp/v2/pages/10
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://blogger-isus.local/wp-json/wp/v2/pages/10
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/xmlrpc.php
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://blogger-isus.local/xmlrpc.php
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-json/oembed/1.0/embed
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:80] Excludable found: URL: http://blogger-isus.local/wp-json/oembed/1.0/embed
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:90] Skipping URL because it is no-save and no-follow
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-32x32.jpg
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a89bd63a-G1aAdz.tmp
+[2025-06-18 05:11:37] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-32x32.jpg?simply_static_page=148
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-32x32.jpg?simply_static_page=148
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:103] Filesize: 742 bytes
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-32x32.jpg
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a89bd63a-G1aAdz.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-32x32.jpg
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:37] [class-ss-page.php:119] Checking Content Identical:19390857e0b9740e18bd6699fab2547b4b4ba54f===. Value: FALSE
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-192x192.jpg
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a89c118b-Emc0bf.tmp
+[2025-06-18 05:11:37] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-192x192.jpg?simply_static_page=149
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-192x192.jpg?simply_static_page=149
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:103] Filesize: 3414 bytes
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-192x192.jpg
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a89c118b-Emc0bf.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-192x192.jpg
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:37] [class-ss-page.php:119] Checking Content Identical:add6960012b4dc94df8b28cf5090841b327d6d27===. Value: FALSE
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:73] URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-180x180.jpg
+[2025-06-18 05:11:37] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 36
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:84] URL is not being excluded
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Windows\TEMP/68524a89c4cf6-uwn5OE.tmp
+[2025-06-18 05:11:37] [class-ss-page-handler.php:38] URL Prepared:http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-180x180.jpg?simply_static_page=150
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:251] Fetching URL: http://blogger-isus.local/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-180x180.jpg?simply_static_page=150
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:103] Filesize: 3319 bytes
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-180x180.jpg
+[2025-06-18 05:11:37] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Windows\TEMP/68524a89c4cf6-uwn5OE.tmp to C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456/wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-180x180.jpg
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2025-06-18 05:11:37] [class-ss-page.php:119] Checking Content Identical:3514229e5f699e1b4bd77a468a13f2d5b36114e8===. Value: FALSE
+[2025-06-18 05:11:37] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 1 de 36 páginas o archivos
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:241] We're not done with the fetch_urls task yet
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:194] Current task: fetch_urls
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:208] Performing task: fetch_urls
+[2025-06-18 05:11:37] [class-ss-fetch-urls-task.php:69] Total pages: 36; Pages remaining: 0
+[2025-06-18 05:11:37] [class-ss-task.php:44] Status message: [fetch_urls] Obtenidos 36 de 36 páginas o archivos
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:233] We've found our next task: transfer_files_locally
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:263] Cleaning on first run for task: transfer_files_locally
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:194] Current task: transfer_files_locally
+[2025-06-18 05:11:37] [class-ss-archive-creation-job.php:208] Performing task: transfer_files_locally
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /index.html
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /inicio/isu-sucre/index.html
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/inicio/isu-sucre
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /inicio/desarrollo-de-software/index.html
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/inicio/desarrollo-de-software
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /inicio/contactanos/index.html
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/inicio/contactanos
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /inicio/comentarios/index.html
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/inicio/comentarios
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /isu-sucre/index.html
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/isu-sucre
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/LOGO-PIE-158x78.png
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/LOGO-PIE-300x148.png
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:37] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/LOGO-PIE.png
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/CARRERAS-2.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/graduatec-2024-1-1170x568-1.jpeg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/PLANTACION-1024x539.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/PLANTACION-300x158.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/PLANTACION-768x404.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/PLANTACION.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/smartslider-backgroundanimation.min.js
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/astra/assets/js/minified/frontend.min.js
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/themes/astra/assets/js/minified
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-270x270.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/themes/astra/assets/css/minified/main.min.css
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/themes/astra/assets/css/minified
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-includes/css/dist/block-library/style.min.css
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-includes/css/dist/block-library
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/supreme-modules-for-divi/public/css/animate.css
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/supreme-modules-for-divi/public/css
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-32x32.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-192x192.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:116] Trying to transfer: /wp-content/uploads/2025/06/cropped-CARRERAS-e1749137929757-180x180.jpg
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:137] Successfully transferred: C:/Users/User/Local Sites/blogger-isus/app/public/wp-content/uploads/2025/06
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:98] [Transfer] Total Pages:29. Processed Pages: 29
+[2025-06-18 05:11:38] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 29 of 29 files
+[2025-06-18 05:11:38] [trait-can-process-pages.php:118] Total pages: 29; Pages remaining: 0
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:197] Transferring 404 Page
+[2025-06-18 05:11:38] [class-ss-transfer-files-locally-task.php:200] No 404 Page found at C:\Users\User\Local Sites\blogger-isus\app\public/wp-content/uploads\simply-static\temp-files/simply-static-1-1750223456\404\index.html
+[2025-06-18 05:11:38] [class-ss-task.php:44] Status message: [destination_url] URL de destino: <a href="https://isu-sucre.netlify.app/" target="_blank">https://isu-sucre.netlify.app/</a>
+[2025-06-18 05:11:38] [class-ss-archive-creation-job.php:233] We've found our next task: wrapup
+[2025-06-18 05:11:38] [class-ss-archive-creation-job.php:194] Current task: wrapup
+[2025-06-18 05:11:38] [class-ss-archive-creation-job.php:208] Performing task: wrapup
+[2025-06-18 05:11:38] [class-ss-wrapup-task.php:23] Deleting temporary files
+[2025-06-18 05:11:38] [class-ss-task.php:44] Status message: [wrapup] Terminando
+[2025-06-18 05:11:38] [class-ss-archive-creation-job.php:228] This task is done and there are no more tasks, time to complete the job
+[2025-06-18 05:11:38] [class-ss-archive-creation-job.php:273] Completing the job
+[2025-06-18 05:11:38] [class-ss-archive-creation-job.php:414] Status message: [done] ¡Hecho! Ha finalizado en 00:00:42
+[2025-06-18 05:13:10] [class-ss-url-fetcher.php:251] Fetching URL: http://Users/User/Local Sites/blogger-jsus/app/public/wp-includes/js/wp-emoji-release.min.js
+[2025-06-18 05:13:13] [class-ss-url-fetcher.php:251] Fetching URL: http://Users/User/Local Sites/blogger-jsus/app/public/wp-includes/js/wp-emoji-release.min.js
